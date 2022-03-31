@@ -8,7 +8,7 @@ body {
     background-color: #800000;
 }
 .calculator {
-    width: 400px;
+    width: 300px;
     margin: 20px auto;
     background-color: #242424;
     box-shadow: 4px 4px 4px rgba(0, 0 ,0 , 0.8);
