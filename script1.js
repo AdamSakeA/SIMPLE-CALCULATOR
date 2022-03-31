@@ -46,7 +46,7 @@ const operators = document.querySelectorAll('.operator')
 const equalSign = document.querySelector('.equal-sign')
 equalSign.addEventListener('click', () => {
     calculate()
-    updateHasil(`${prevNumber}  ${currentNumber}`)
+    updateHasil(`${prevNumber} ${calculationOperator} ${currentNumber}`)
     updateScreen(hasilNumber)
 })
 
@@ -69,7 +69,6 @@ const calculate = () => {
             break
     }
     hasilNumber = result
-    calculationOperator = ''
 }
 
 const clearBtn = document.querySelector('.all-clear')
