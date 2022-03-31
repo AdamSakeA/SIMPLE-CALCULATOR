@@ -67,6 +67,7 @@ button {
 
 button:hover {
     box-shadow: 0px 0px 5px rgba(255,0,0, 0.8);
+    transition: 0.5s;
 }
 .all-clear, .zero-btn {
     width: 50%;
